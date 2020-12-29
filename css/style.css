@@ -25,6 +25,9 @@ html {
 
 body {
 	font-family: var(--main-font-famil);
+	font-size: 14px;
+	line-height: 1.14;
+	letter-spacing: 0.02em;
 }
 ul {
 	margin: 0;
@@ -80,9 +83,6 @@ header .container {
 
 .navigation .link {
 	font-weight: 500;
-	font-size: 14px;
-	line-height: 1.14;
-	letter-spacing: 0.02em;
 	color: var(--main-text-color);
 }
 .header li {
@@ -108,9 +108,6 @@ header .container {
 .contacts {
 	display: inline-block;
 	font-weight: 500;
-	font-size: 14px;
-	line-height: 1.14;
-	letter-spacing: 0.02em;
 	color: var(--color-text-paragraph);
 	margin: 0;
 }
@@ -123,13 +120,15 @@ header .container {
 .hero {
 	text-align: center;
 	padding-bottom: 94px;
+	background: #2f303a;
 }
 .main-header {
+	text-transform: uppercase;
 	font-weight: 900;
 	font-size: 44px;
 	line-height: 1.36;
 	letter-spacing: 0.06em;
-	/* color: var(--color-text-h2); */
+	color: var(--color-text-h2);
 	margin: 0;
 	margin-bottom: 30px;
 }
@@ -149,12 +148,7 @@ header .container {
 /* НАШИ ДОСТОИНСТВА */
 .advantage-list {
 	padding-bottom: 94px;
-}
-.dignities .container {
-	display: flex;
-}
-.dignities ul {
-	display: flex;
+	padding-top: 94px;
 }
 
 .advantage-title {
@@ -250,8 +244,7 @@ header .container {
 .footer-bg .logo {
 	margin-bottom: 20px;
 }
-.address {
-	display: inline-block;
+.container .address {
 	font-weight: normal;
 	font-size: 14px;
 	line-height: 1.71;
