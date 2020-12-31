@@ -127,6 +127,7 @@ header .container {
 	padding-top: 200px;
 	padding-bottom: 200px;
 	background: #2f303a;
+	margin-bottom: 94px;
 }
 .main-header {
 	text-transform: uppercase;
@@ -154,7 +155,6 @@ header .container {
 /* НАШИ ДОСТОИНСТВА */
 .advantage-list {
 	padding-bottom: 94px;
-	padding-top: 94px;
 }
 .dignity-list:not(:last-child) {
 	margin-right: 30px;
@@ -199,10 +199,6 @@ header .container {
 	color: var(--main-text-color);
 	margin: 0;
 	margin-bottom: 50px;
-}
-
-.second-list {
-	margin-bottom: 94px;
 }
 
 /* /ЧТО МЫ ДЕЛАЕМ */
