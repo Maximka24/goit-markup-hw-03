@@ -85,12 +85,12 @@ header .container {
 }
 
 .navigation .link {
-	padding-right: 50px;
+	margin-right: 50px;
 	font-weight: 500;
 	color: var(--main-text-color);
 }
 .navigation .child-contacts {
-	padding-right: 0;
+	margin-right: 0;
 }
 .header li {
 	padding-top: 32px;
@@ -139,8 +139,9 @@ header .container {
 	padding-top: 200px;
 	padding-bottom: 200px;
 	background: #2f303a;
-	margin-bottom: 94px;
+	/* margin-bottom: 94px; */
 }
+
 .main-header {
 	text-transform: uppercase;
 	font-weight: 900;
@@ -168,6 +169,7 @@ header .container {
 /* НАШИ ДОСТОИНСТВА */
 .advantage-list {
 	padding-bottom: 94px;
+	padding-top: 94px;
 }
 .dignity-list:not(:last-child) {
 	margin-right: 30px;
