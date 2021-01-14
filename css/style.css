@@ -98,10 +98,6 @@ header .container {
 	margin-right: 0px;
 }
 
-/* .header li {
-	padding-top: 32px;
-	padding-bottom: 32px;
-} */
 .header li:last-child {
 	padding-right: 0;
 }
@@ -131,6 +127,8 @@ header .container {
 	font-weight: 500;
 	color: var(--color-text-paragraph);
 	margin: 0;
+	padding-top: 32px;
+	padding-bottom: 32px;
 }
 .contacts:hover,
 .contacts:focus {
@@ -146,6 +144,10 @@ header .container {
 	padding-bottom: 200px;
 	background: #2f303a;
 	margin-bottom: 94px;
+}
+.hero .container {
+	width: 700px;
+	height: 200px;
 }
 
 .main-header {
@@ -239,6 +241,7 @@ header .container {
 .team-bg {
 	background: var(--color-bg-team);
 	padding-bottom: 94px;
+	padding-top: 94px;
 }
 
 .person {
